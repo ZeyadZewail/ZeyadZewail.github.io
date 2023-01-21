@@ -5,7 +5,7 @@ const Name = () => {
 		<div className="flex flex-row justify-center flex-1 gap-8">
 			<div className="w-fit h-full flex flex-col justify-center gap-4">
 				<div className="text-8xl">Zeyad Zewail</div>
-				<div className="flex justify-start h-fit">
+				<div className="flex justify-center h-fit">
 					<div className="box">
 						<ul>
 							<li className="text-4xl item-1">Frontend</li>
