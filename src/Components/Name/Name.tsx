@@ -1,7 +1,7 @@
 const Name = () => {
 	return (
 		<div className="flex flex-row justify-center h-full gap-8">
-			<div className="w-fit h-full flex flex-col justify-center">
+			<div className="w-fit h-full flex flex-col justify-center gap-4">
 				<div className="text-8xl">Zeyad Zewail</div>
 				<div className="text-4xl text-center">Full Stack Developer</div>
 			</div>
