@@ -5,7 +5,7 @@
 @font-face {
 	font-family: "URWGothic-Book";
 	src: local("URWGothic-Book"),
-		url(./fonts/URWgothic/URWGothic-demi.ttf) format("truetype");
+		url(./src/fonts/URWgothic/URWGothic-demi.ttf) format("truetype");
 	/* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }

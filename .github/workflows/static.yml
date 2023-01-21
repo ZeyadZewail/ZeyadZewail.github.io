@@ -36,7 +36,7 @@ jobs:
         run: yarn
       - name: build site
         run: yarn build
-      - name: ls site
+      - name: ls build files
         run: ls ${{ github.workspace }}/dist/assets
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
