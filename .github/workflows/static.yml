@@ -37,11 +37,11 @@ jobs:
       - name: build site
         run: yarn build
       - name: ls site
-        run: ls ${{ github.workspace }}/dist
+        run: ls ${{ github.workspace }}/dist/assets
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          # Upload entire repository
+          # Upload build files
           path: "./dist"
       - name: Deploy to GitHub Pages
         id: deployment
