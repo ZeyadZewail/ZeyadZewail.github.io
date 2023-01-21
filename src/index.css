@@ -1,17 +1,10 @@
+@import url("https://fonts.cdnfonts.com/css/franklin-gothic-demi-2");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-	font-family: "URWGothic-Book";
-	src: local("URWGothic-Book"),
-		url(./src/fonts/URWgothic/URWGothic-demi.ttf) format("truetype");
-	/* other formats include: 'woff2', 'truetype, 'opentype',
-                            'embedded-opentype', and 'svg' */
-}
-
 :root {
-	font-family: URWGothic-Book, sans-serif;
+	font-family: "Franklin Gothic Demi", sans-serif;
 	color-scheme: light dark;
 	color: rgba(255, 255, 255, 0.87);
 	background-color: #242424;
