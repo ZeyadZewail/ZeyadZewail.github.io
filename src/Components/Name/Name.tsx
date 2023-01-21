@@ -10,7 +10,9 @@ const Name = () => {
 						<ul>
 							<li className="lg:text-4xl text-1xl item-1">Frontend</li>
 							<li className="lg:text-4xl text-1xl item-2">Backend</li>
-							<li className="lg:text-4xl text-1xl item-3">Creative</li>
+							<li className="lg:text-4xl text-1xl item-3 text-right">
+								Creative
+							</li>
 						</ul>
 					</div>
 					<div className="lg:text-4xl text-1xl">Developer</div>

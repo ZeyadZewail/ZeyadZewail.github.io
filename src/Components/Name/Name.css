@@ -27,8 +27,8 @@
 ul {
 	margin: 0;
 	padding: 0;
-	-webkit-animation: scrollUp 3s infinite linear;
-	animation: scrollUp 3s infinite linear;
+	-webkit-animation: scrollUp 4s infinite linear;
+	animation: scrollUp 4s infinite linear;
 }
 ul li {
 	opacity: 1;
@@ -38,36 +38,29 @@ ul li {
 	list-style: none;
 }
 
-@-webkit-keyframes fadeOut {
-	from {
-		opacity: 1;
-	}
-	to {
-		opacity: 0;
-	}
-}
-
-@keyframes fadeOut {
-	from {
-		opacity: 1;
-	}
-	to {
-		opacity: 0;
-	}
-}
-@-webkit-keyframes scrollUp {
-	from {
-		transform: translateY(0);
-	}
-	to {
-		transform: translateY(-90%);
-	}
-}
 @keyframes scrollUp {
-	from {
+	0% {
 		transform: translateY(0);
 	}
-	to {
-		transform: translateY(-110%);
+	10% {
+		transform: translateY(-17%);
+	}
+	20% {
+		transform: translateY(-17%);
+	}
+	40% {
+		transform: translateY(-50%);
+	}
+	50% {
+		transform: translateY(-50%);
+	}
+	70% {
+		transform: translateY(-84%);
+	}
+	80% {
+		transform: translateY(-84%);
+	}
+	100% {
+		transform: translateY(-120%);
 	}
 }
