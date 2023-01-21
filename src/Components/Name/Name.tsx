@@ -1,3 +1,5 @@
+import "./Name.css";
+
 const Name = () => {
 	return (
 		<div className="flex flex-row justify-center flex-1 gap-8">

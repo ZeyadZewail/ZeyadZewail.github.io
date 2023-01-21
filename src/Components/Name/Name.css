@@ -1,9 +1,10 @@
 .box {
 	height: 40px;
-	width: 180px;
+	width: 175px;
 	overflow: hidden;
 	position: relative;
 }
+
 .box::before {
 	top: 0;
 	left: 0;
