@@ -33,7 +33,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: install packages
-        run: yarn
+        run: yarn --install-peers
       - name: build site
         run: yarn build
       - name: ls build files
