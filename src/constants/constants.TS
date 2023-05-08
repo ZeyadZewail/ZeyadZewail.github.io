@@ -40,7 +40,12 @@ import {
     },
   ];
   
-  const services = [
+  export interface Service{
+    title:string,
+    icon:string
+  }
+
+  const services:Service[] = [
     {
       title: "Web Developer",
       icon: web,
