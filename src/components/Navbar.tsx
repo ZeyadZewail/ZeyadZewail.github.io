@@ -21,11 +21,11 @@ const Navbar = () => {
 						window.scrollTo(0, 0);
 					}}>
 					<img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-					<p className="text-white  text-[18px] font-bold cursor-pointer">
-						Zeyad Zewail <span className="sm:block hidden">Creative Developer</span>
+					<p className="text-white  text-[18px] font-bold cursor-pointer ">
+						Zeyad Zewail <span className="md:block hidden">Web Developer</span>
 					</p>
 				</Link>
-				<ul className="list-none hidden sm:flex flex-row gap-10">
+				<ul className="list-none hidden sm:flex flex-row gap-9">
 					{navLinks.map((link) => (
 						<li
 							key={link.id}

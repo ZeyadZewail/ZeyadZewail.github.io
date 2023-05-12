@@ -20,43 +20,55 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import Postgresql from "./tech/Postgresql.svg";
+import SQL from "./tech/SQL.png";
+import angular from "./tech/angular.png";
+import MUI from "./tech/MUI.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import firebase from "./tech/firebase.png";
+import unity from "./tech/unity.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import scandiweb from "./company/scandiweb.png";
+
+import poeHarvest from "./poeHarvest.png";
+import modareseen from "./modareseen.png";
+import FaceDetection from "./FaceDetection.png";
+import portfolio from "./portfolio.png";
+
+import external_link from "./External_link.svg";
 
 export {
-  logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+	portfolio,
+	FaceDetection,
+	modareseen,
+	poeHarvest,
+	scandiweb,
+	unity,
+	firebase,
+	MUI,
+	angular,
+	SQL,
+	Postgresql,
+	logo,
+	backend,
+	creator,
+	mobile,
+	web,
+	github,
+	menu,
+	close,
+	css,
+	docker,
+	figma,
+	git,
+	html,
+	javascript,
+	mongodb,
+	nodejs,
+	reactjs,
+	redux,
+	tailwind,
+	typescript,
+	threejs,
+	external_link,
 };

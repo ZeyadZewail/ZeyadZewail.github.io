@@ -34,21 +34,31 @@ const About = () => {
 				<p className={styles.sectionSubText}>Introduction</p>
 				<h2 className={styles.sectionHeadText}>Overview.</h2>
 			</motion.div>
-			<motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum vitae est vel dignissim. Duis sit amet
-				bibendum nisl, at sagittis lectus. Nunc a vehicula mauris. Donec volutpat elementum nibh, eget mattis nisi
-				facilisis vel. Proin ornare augue sit amet arcu eleifend, nec venenatis elit posuere. Etiam vitae rhoncus nisl.
-				Ut vitae massa metus. Cras lobortis rutrum sem, vel efficitur risus. Quisque eu tempus quam, non tincidunt
-				magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut hendrerit
-				feugiat gravida. Phasellus dignissim, mauris condimentum aliquam euismod, ipsum lectus tristique arcu, at
-				laoreet nulla dui sit amet felis. Morbi posuere lacus quis tortor consequat, ac commodo eros molestie. Etiam
-				posuere diam in nulla mattis commodo. Vestibulum risus mi, molestie vel tempus sed, mollis a purus. Integer id
-				iaculis nulla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque eu
-				porttitor risus. In at scelerisque dui. Proin volutpat, mi interdum ullamcorper ultricies, odio massa porta
-				libero, in elementum dolor sapien ac enim. In fringilla venenatis sodales. Vivamus ac laoreet dolor. Duis ornare
-				sollicitudin dolor id egestas. Sed at odio vehicula, tincidunt massa sit amet, convallis lacus. Interdum et
-				malesuada fames ac ante ipsum primis in faucibus. Duis malesuada nisi elit, vel efficitur magna mattis eget.
-			</motion.p>
+			<div className="flex flex-col gap-5">
+				<motion.p
+					variants={fadeIn("", "", 0.1, 1)}
+					className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]">
+					As an experienced Web developer, I specialize in creating captivating and responsive websites. With a keen eye
+					for design and a strong command of HTML, CSS, and JavaScript, I transform concepts into stunning web
+					applications. As an experienced Web developer, I specialize in creating captivating and responsive websites.
+					With a keen eye for design and a strong command of HTML, CSS, and JavaScript, I transform concepts into
+					stunning web applications.
+				</motion.p>
+				<motion.p
+					variants={fadeIn("", "", 0.2, 1)}
+					className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]">
+					I excel in implementing responsive designs that seamlessly adapt to various devices, ensuring an optimal user
+					experience. My portfolio showcases a range of projects where I have created interactive elements such as
+					sliders, forms, navigation menus, and animations, enhancing user interaction and engagement.
+				</motion.p>
+				<motion.p
+					variants={fadeIn("", "", 0.3, 1)}
+					className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]">
+					I have a proven track record of seamlessly integrating third-party APIs to add dynamic and real-time
+					functionality to websites. My focus on performance optimization guarantees fast load times and efficient
+					coding practices.
+				</motion.p>
+			</div>
 
 			<div className="mt-20 flex flex-wrap gap-10 justify-center">
 				{services.map((service, index) => {
