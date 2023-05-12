@@ -156,7 +156,7 @@ const experiences: Experience[] = [
 			"Implementing responsive design and ensuring cross-browser compatibility.",
 			"Debugged and optimized code to improve website performance and user experience.",
 			"Utilized version control systems like Git for efficient code management and collaboration.",
-			"Stayed updated with the latest web development trends and technologies.",
+			"Stayed up to date with the latest web development trends and technologies.",
 		],
 	},
 	{
@@ -169,7 +169,7 @@ const experiences: Experience[] = [
 			"Developed and maintained Ecommmerce applications using React (SPWA) and magento 2 CMS (PHP).",
 			"Collaborated in an Agile Environment with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
 			"Communicated with customers in order to fulfill their requests and diagnose issues.",
-			"Participating in code reviews and provided constructive feedback to other developers.",
+			"Participated in code reviews and provided constructive feedback to other developers.",
 		],
 	},
 ];
