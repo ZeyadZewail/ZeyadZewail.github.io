@@ -48,7 +48,7 @@ const ProjectCard: React.FC<ProjectCardInterface> = ({ project, index }) => {
 
 					<div className="flex flex-wrap gap-2">
 						{project.tags.map((tag) => (
-							<p key={tag.name} className={`text-[14px]  ${tag.color}`}>
+							<p key={tag.name} className={`text-[14px] ${tag.color}`}>
 								{"#" + tag.name}
 							</p>
 						))}
