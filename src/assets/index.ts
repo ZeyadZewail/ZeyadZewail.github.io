@@ -1,8 +1,8 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import backend from "./backend.webp";
+import creator from "./creator.webp";
+import mobile from "./mobile.webp";
+import web from "./web.webp";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -22,18 +22,18 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import Postgresql from "./tech/Postgresql.svg";
 import SQL from "./tech/SQL.png";
-import angular from "./tech/angular.png";
+import angular from "./tech/angular.webp";
 import MUI from "./tech/MUI.png";
 
 import firebase from "./tech/firebase.png";
 import unity from "./tech/unity.png";
 
-import scandiweb from "./company/scandiweb.png";
+import scandiweb from "./company/scandiweb.webp";
 
-import poeHarvest from "./poeHarvest.png";
-import modareseen from "./modareseen.png";
-import FaceDetection from "./FaceDetection.png";
-import portfolio from "./portfolio.png";
+import poeHarvest from "./poeHarvest.webp";
+import modareseen from "./modareseen.webp";
+import FaceDetection from "./FaceDetection.webp";
+import portfolio from "./portfolio.webp";
 
 import external_link from "./External_link.svg";
 

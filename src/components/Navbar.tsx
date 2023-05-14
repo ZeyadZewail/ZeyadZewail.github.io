@@ -35,7 +35,9 @@ const Navbar = () => {
 							onClick={() => {
 								setActive(link.title);
 							}}>
-							<a href={`#${link.id}`}>{link.title}</a>
+							<a href={`#${link.id}`} aria-label={`#${link.id}`}>
+								{link.title}
+							</a>
 						</li>
 					))}
 				</ul>
