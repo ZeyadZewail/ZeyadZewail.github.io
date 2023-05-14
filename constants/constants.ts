@@ -73,7 +73,7 @@ const services: Service[] = [
 
 export interface Technology {
 	name: string;
-	icon: string;
+	icon: StaticImageData;
 }
 
 const technologies: Technology[] = [
