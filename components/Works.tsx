@@ -6,6 +6,7 @@ import { github, external_link } from "../assets";
 import sectionWrapper from "../hoc/SectionWrapper";
 import { Project, projects } from "../constants/constants";
 import { fadeIn, textVariant } from "../util/motion";
+import Image from "next/image";
 
 interface ProjectCardInterface {
 	project: Project;
@@ -19,7 +20,7 @@ const ProjectCard: React.FC<ProjectCardInterface> = ({ project, index }) => {
 				option={{ max: 45, scale: 1, speed: 450 }}
 				className="bg-tertiary p-5 rounded-2xl w-[360px] h-[450px] flex flex-col">
 				<div className="relative w-full h-[230px] ">
-					<img src={project.image} alt={project.name} className="w-full h-full object-cover rounded-2xl" />
+					<Image src={project.image} alt={project.name} className="w-full h-full object-cover rounded-2xl" />
 					<div className="absolute inset-0 flex flex-col gap-2 items-end m-3 card-img_hover">
 						{project.source_code_link === "" ? null : (
 							<div
@@ -27,7 +28,7 @@ const ProjectCard: React.FC<ProjectCardInterface> = ({ project, index }) => {
 									window.open(project.source_code_link, "_blank");
 								}}
 								className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-								<img src={github} alt="github" className="w-3/5 h-3/5 object-contain" />
+								<Image src={github} alt="github" className="w-3/5 h-3/5 object-contain" />
 							</div>
 						)}
 						<div
@@ -35,7 +36,12 @@ const ProjectCard: React.FC<ProjectCardInterface> = ({ project, index }) => {
 								window.open(project.link, "_blank");
 							}}
 							className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-							<img src={external_link} className="h-5 self-center cursor-pointer" style={{ filter: "invert(100%)" }} />
+							<Image
+								src={external_link}
+								className="h-5 self-center cursor-pointer"
+								style={{ filter: "invert(100%)" }}
+								alt="external link"
+							/>
 						</div>
 					</div>
 				</div>

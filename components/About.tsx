@@ -5,6 +5,8 @@ import { styles } from "../util/styles";
 import { services, Service } from "../constants/constants";
 import { fadeIn, textVariant } from "../util/motion";
 import sectionWrapper from "../hoc/SectionWrapper";
+import Image from "next/image";
+
 interface ServiceCardInterface {
 	service: Service;
 	index: number;
@@ -19,7 +21,7 @@ const ServiceCard: React.FC<ServiceCardInterface> = ({ service, index }) => {
 				<Tilt
 					options={{ max: 45, scale: 1, speed: 450 }}
 					className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
-					<img src={service.icon} alt={service.title} className="w-16 h-16 object-contain" />
+					<Image src={service.icon} alt={service.title} className="w-16 h-16 object-contain" />
 					<h3 className="text-white tex-[20px] font-bold text-center">{service.title}</h3>
 				</Tilt>
 			</motion.div>

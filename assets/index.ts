@@ -24,6 +24,7 @@ import Postgresql from "./tech/Postgresql.svg";
 import SQL from "./tech/SQL.png";
 import angular from "./tech/angular.webp";
 import MUI from "./tech/MUI.png";
+import nextJS from "./tech/nextJS.png";
 
 import firebase from "./tech/firebase.png";
 import unity from "./tech/unity.png";
@@ -38,6 +39,7 @@ import portfolio from "./portfolio.webp";
 import external_link from "./External_link.svg";
 
 export {
+	nextJS,
 	portfolio,
 	FaceDetection,
 	modareseen,

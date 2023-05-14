@@ -1,3 +1,4 @@
+import { StaticImageData } from "next/image";
 import {
 	mobile,
 	backend,
@@ -17,6 +18,7 @@ import {
 	docker,
 	threejs,
 	Postgresql,
+	nextJS,
 	SQL,
 	angular,
 	unity,
@@ -47,7 +49,7 @@ export const navLinks = [
 
 export interface Service {
 	title: string;
-	icon: string;
+	icon: StaticImageData;
 }
 
 const services: Service[] = [
@@ -95,6 +97,7 @@ const technologies: Technology[] = [
 		name: "React JS",
 		icon: reactjs,
 	},
+	{ name: "NextJS", icon: nextJS },
 	{ name: "Angular", icon: angular },
 	{
 		name: "Redux Toolkit",
@@ -131,13 +134,12 @@ const technologies: Technology[] = [
 		name: "figma",
 		icon: figma,
 	},
-	{ name: "Unity", icon: unity },
 ];
 
 export interface Experience {
 	title: string;
 	company_name: string;
-	icon: string;
+	icon: StaticImageData | "";
 	iconBg: string;
 	date: string;
 	points: string[];
@@ -193,7 +195,7 @@ export interface Project {
 	name: string;
 	description: string;
 	tags: Tag[];
-	image: string;
+	image: StaticImageData;
 	source_code_link: string;
 	link: string;
 }
@@ -201,11 +203,15 @@ export interface Project {
 const projects: Project[] = [
 	{
 		name: "My portfolio",
-		description: "A Beautiful and mobile responsive portfolio.",
+		description: "A Beautiful and mobile responsive portfolio built with nextJS",
 		tags: [
 			{
 				name: "React",
 				color: "blue-text-gradient",
+			},
+			{
+				name: "NextJS",
+				color: "text-gray-600",
 			},
 			{
 				name: "ThreeJS",

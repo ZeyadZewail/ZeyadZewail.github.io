@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
 import { fadeIn, textVariant } from "../util/motion";
 import { styles } from "../util/styles";
+import Image from "next/image";
 
 interface TechCardInterface {
 	technology: Technology;
@@ -20,7 +21,7 @@ const TechCard: React.FC<TechCardInterface> = ({ technology, index }) => {
 				<Tilt
 					options={{ max: 45, scale: 1, speed: 450 }}
 					className="bg-tertiary rounded-[20px] py-5 px-4 xs:w-[150px]  xs:h-[150px] w-[100px] h-[100px] flex justify-evenly items-center flex-col">
-					<img className="h-[50%]" src={technology.icon} />
+					<Image className="h-[50%] object-contain" src={technology.icon} alt={technology.name} />
 					<p className="text-white font-bold xs:text-md text-sm flex gap-2">{technology.name}</p>
 				</Tilt>
 			</motion.div>

@@ -7,6 +7,7 @@ import { styles } from "../util/styles";
 import { experiences, Experience } from "../constants/constants";
 import sectionWrapper from "../hoc/SectionWrapper";
 import { textVariant } from "../util/motion";
+import Image from "next/image";
 
 interface ExperienceCardInterface {
 	experience: Experience;
@@ -22,7 +23,7 @@ const ExperienceCard: React.FC<ExperienceCardInterface> = ({ experience, index }
 			icon={
 				experience.icon === "" ? null : (
 					<div className="flex justify-center items-center w-full h-full">
-						<img src={experience.icon} alt={experience.company_name} className="w-[60%] h-[60%] object-contain" />
+						<Image src={experience.icon} alt={experience.company_name} className="w-[60%] h-[60%] object-contain" />
 					</div>
 				)
 			}>
@@ -48,7 +49,7 @@ const Experience = () => {
 	return (
 		<Fragment>
 			<motion.div variants={textVariant(0.25)}>
-				<p className={styles.sectionSubText}>What i've done so far</p>
+				<p className={styles.sectionSubText}>{"What i've done so far"}</p>
 				<h2 className={styles.sectionHeadText}>Work Experience.</h2>
 			</motion.div>
 			<div className="mt-20 flex flex-col">
