@@ -164,7 +164,7 @@ const experiences: Experience[] = [
 		company_name: "Scandiweb",
 		icon: scandiweb,
 		iconBg: "#E6DEDD",
-		date: "Feb 2023 - May 2022",
+		date: "Feb 2023 - April 2023",
 		points: [
 			"Developed and maintained Ecommmerce applications using React (SPWA) and magento 2 CMS (PHP).",
 			"Collaborated in an Agile Environment with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
