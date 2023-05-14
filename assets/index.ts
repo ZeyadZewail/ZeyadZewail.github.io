@@ -36,7 +36,7 @@ import modareseen from "./modareseen.webp";
 import FaceDetection from "./FaceDetection.webp";
 import portfolio from "./portfolio.webp";
 
-import external_link from "./External_link.svg";
+import external_link from "./external_link.svg";
 
 export {
 	nextJS,
