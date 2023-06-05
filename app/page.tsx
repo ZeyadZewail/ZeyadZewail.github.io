@@ -1,5 +1,3 @@
-"use client";
-
 import { About, Contact, Experience, Hero, Navbar, Tech, Works } from "@/components";
 import heroBG from "../assets/herobg.png";
 

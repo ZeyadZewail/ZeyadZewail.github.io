@@ -1,3 +1,5 @@
+"use client";
+
 import React, { Fragment } from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";

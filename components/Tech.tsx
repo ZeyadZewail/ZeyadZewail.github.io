@@ -1,3 +1,5 @@
+"use client";
+
 import React, { Fragment } from "react";
 import sectionWrapper from "../hoc/SectionWrapper";
 import { Technology, technologies } from "../constants/constants";
