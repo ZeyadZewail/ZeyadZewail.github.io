@@ -35,10 +35,12 @@ import poeHarvest from "./poeHarvest.webp";
 import modareseen from "./modareseen.webp";
 import FaceDetection from "./FaceDetection.webp";
 import portfolio from "./portfolio.webp";
+import placeofspeech from "./placeofspeech.webp";
 
 import external_link from "./external_link.svg";
 
 export {
+	placeofspeech,
 	nextJS,
 	portfolio,
 	FaceDetection,

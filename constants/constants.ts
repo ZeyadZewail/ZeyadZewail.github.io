@@ -27,6 +27,7 @@ import {
 	poeHarvest,
 	modareseen,
 	FaceDetection,
+	placeofspeech,
 	firebase,
 	portfolio,
 } from "../assets";
@@ -271,6 +272,32 @@ const projects: Project[] = [
 		image: poeHarvest,
 		source_code_link: "https://github.com/ZeyadZewail/poe-gambagame",
 		link: "https://gambagamealpha.fly.dev/",
+	},
+	{
+		name: "Place of Speech Trainer",
+		description:
+			"React Web app where you give it a link to an image and it detects faces and highlights them using clarifAI API.",
+		tags: [
+			{
+				name: "React",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "nodeJS",
+				color: "green-text-gradient",
+			},
+			{
+				name: "fly.io",
+				color: "text-violet-400",
+			},
+			{
+				name: "tailwind",
+				color: "text-cyan-400",
+			},
+		],
+		image: placeofspeech,
+		source_code_link: "https://github.com/ZeyadZewail/nagwa-task",
+		link: "https://placeofspeech.fly.dev/",
 	},
 	{
 		name: "Face Detection WebApp",
