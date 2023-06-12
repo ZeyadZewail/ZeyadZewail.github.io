@@ -276,7 +276,7 @@ const projects: Project[] = [
 	{
 		name: "Place of Speech Trainer",
 		description:
-			"React Web app where you give it a link to an image and it detects faces and highlights them using clarifAI API.",
+			'A responsive web game called "Guess the place of speech" where you get 10 random words and you have to guess it\'s place of speech.',
 		tags: [
 			{
 				name: "React",
