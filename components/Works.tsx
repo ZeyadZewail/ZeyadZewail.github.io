@@ -17,7 +17,7 @@ interface ProjectCardInterface {
 
 const ProjectCard: React.FC<ProjectCardInterface> = ({ project, index }) => {
 	return (
-		<motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="flex justify-center w-full">
+		<div className="flex justify-center w-full">
 			<Tilt
 				option={{ max: 45, scale: 1, speed: 450 }}
 				className="bg-tertiary p-5 rounded-2xl w-[360px] h-[450px] flex flex-col">
@@ -63,7 +63,7 @@ const ProjectCard: React.FC<ProjectCardInterface> = ({ project, index }) => {
 					</div>
 				</div>
 			</Tilt>
-		</motion.div>
+		</div>
 	);
 };
 
