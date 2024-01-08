@@ -48,20 +48,6 @@ const About = () => {
 					With a keen eye for design and a strong command of HTML, CSS, and JavaScript, I transform concepts into
 					stunning web applications.
 				</motion.p>
-				<motion.p
-					variants={fadeIn("", "", 0.2, 1)}
-					className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]">
-					I excel in implementing responsive designs that seamlessly adapt to various devices, ensuring an optimal user
-					experience. My portfolio showcases a range of projects where I have created interactive elements such as
-					sliders, forms, navigation menus, and animations, enhancing user interaction and engagement.
-				</motion.p>
-				<motion.p
-					variants={fadeIn("", "", 0.3, 1)}
-					className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]">
-					I have a proven track record of seamlessly integrating third-party APIs to add dynamic and real-time
-					functionality to websites. My focus on performance optimization guarantees fast load times and efficient
-					coding practices.
-				</motion.p>
 			</div>
 
 			<div className="mt-20 flex flex-wrap gap-10 justify-center">
